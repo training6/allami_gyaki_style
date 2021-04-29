@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import '../src/style/App.css';
+import HamBurgerMenu from '../src/components/HamBurgerMenu';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="box">
+      <HamBurgerMenu />
+        <div className="text1">
+          <p>Vásárlásról és kiszállításról</p>
+          <p>Termékek listája</p>
+          <p>Szolgáltatások</p>
+          <p>Kapcsolat</p>
+        </div>
+        <div className="text2">
+          <p>Általásnos szerződési feltételek</p>
+          <p>Adatkezelési nyilatkozat</p>
+          <p>Impresszum</p>
+        </div>
+        <div className='title'>
+          <h3>Morella</h3>
+        </div>
+      </div>
     </div>
   );
 }

@@ -11,14 +11,14 @@ const useStyles = makeStyles({
 float: 'right'
   },
   iconB: {
-    marginRight: "20px",
-    marginTop: "20px",
+    marginRight: "-30px",
+    marginTop: "-35px",
     float: "right",
     width: "90px",
     height: "90px",
-    backgroundColor: "#242d38",
-    color: '#efd592',
-    stroke: '#efd592',
+    backgroundColor: "white",
+    color: 'green',
+    stroke: 'green',
     '&:hover': {
       color: "#242d38",
       stroke: "#242d38",
@@ -26,15 +26,24 @@ float: 'right'
     },
     '@media (max-width: 1100px)': {
       width: '90px',
-      height: '90px'
+      height: '90px',
+      marginRight: '-20px',
+      marginTop: '-25px',
+  
     },
     '@media (max-width: 613px)': {
-      width: '80px',
-      height: '80px',
+      width: '70px',
+      height: '70px',
+      marginRight: '-10px',
+      marginTop: '-15px',
+
     },
     '@media (max-width: 430px)': {
-      width: '70px',
-      height: '70px'
+      width: '60px',
+      height: '60px',
+      marginRight: '-5px',
+      marginTop: '-20px',
+
     }
   },
   icon: {
@@ -52,9 +61,9 @@ float: 'right'
 });
 
 const options = [
-  'Home',
-  'Blog',
-  'Stg'
+  'Vmi1',
+  'Vmi2',
+  'Vmi2'
 ]
 
 function MenuH() {
